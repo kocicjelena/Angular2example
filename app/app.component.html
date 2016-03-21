@@ -1,0 +1,18 @@
+<div class="my-container">
+    <h1>
+    <ul class="heroes">
+      <li *ngFor="#hero of heroes"
+        [class.selected]="hero === selectedHero"
+        (click)="onSelect(hero)">
+   <h3>  {{hero.name}}</h3>
+      </li>
+       <li> <button (click)="onSave()">X</button></li>
+    </ul>
+    
+    </h1>
+    <img src="img/head.jpg">
+</div>
+<div class="my-mid"><my-hero-detail [hero]="selectedHero"></my-hero-detail></div>
+ <div class="my-fot">
+    <p>  <sebm-google-map [latitude]="lat" [longitude]="lng">
+    </sebm-google-map> </p>   <img src="img/stanga.jpg"></div>

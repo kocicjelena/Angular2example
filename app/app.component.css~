@@ -1,0 +1,186 @@
+ .my-container {
+    position: relative;
+    overflow: hidden;
+     height: 30em;
+}
+ .my-mid{
+ margin: 0;
+ width: 100%;
+ height: 100%;
+ position: relative;
+ overflow: hidden; 
+}
+.my-container h1 {
+    position: relative;
+    z-index: 2;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+ .sebm-google-map-container {
+      height: 30em;
+    }
+.my-fot{  
+    position: relative;
+    overflow: hidden;}
+.my-fot p{ 
+   opacity: 0.5;
+   position: relative;
+    z-index: 2;}
+.my-fot img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    height: auto;
+    opacity: 0.9;
+}
+.my-container h1 .heroes {
+	float:right;
+      margin: 0em -7.5em 2em 2em;
+      padding: 0;
+      width: 100%;
+       height: auto;
+    }
+.heros ul {
+	
+    margin: 0;
+  color: #000000;
+    }
+ .heroes li {
+ 	 padding: 0.2em 0.2em;
+ font-size: 48%;
+      list-style-type: inline;
+   display: inline-block;
+      cursor: pointer;
+     width: 12%;
+      background-color: orange;
+      margin: .07em;
+      height: 2.5em;
+      border-radius: 1px;
+    }
+     .heroes li h3{     margin: .07em;}
+    button { 
+ height: auto;
+  padding: 0.5em 0.1em;
+
+     width: 90%;
+     background-color: orange;
+     font-weight: bold;
+     color: #000000;}
+   .heroes li.selected:hover {
+      background-color: #BBD8DC !important;
+      color: white;
+    }
+  .heroes li:hover {
+      color: #607D8B;
+      background-color: #DDD;
+      left: .1em;
+    }
+  .heroes .text {
+      position: relative;
+      top: -3px;
+    }
+   .heroes .badge {
+      display: inline-block;
+      font-size: small;
+      color: white;
+      padding: 0.8em 0.7em 0 0.7em;
+      background-color: #607D8B;
+      line-height: 1em;
+      position: relative;
+      left: -1px;
+      top: -4px;
+       height: auto;
+      margin-right: .8em;
+      border-radius: 4px 0 0 4px;
+    }
+.sebm-google-map-container {
+      height: 300px;
+    }
+  
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h3 {
+  text-align: center; margin-bottom: 0;
+}
+
+ 
+@media (max-width: 600px) {
+  .my-container {
+      font-size: 10px;
+      max-height: 50%; }
+       .heroes li {
+ 	 padding: 0.2em 0.2em;
+ font-size: 22%;
+      list-style-type: inline;
+   display: inline-block;
+      cursor: pointer;
+     width: 8.2%;
+      background-color: orange;
+      margin: .01em;
+  margin-right: .1em;
+      height: 1.7em;
+      border-radius: 2px;
+    }
+     .heroes li h3{     margin: .01em;}
+}
+button { 
+ height: auto;
+ width: 100%;
+ background-color: orange;
+ color: #000000;   height: auto;}
+@media (max-width: 1024px) {
+   
+     .my-container {
+      min-width: 90%;
+    }
+    .my-container h1 .heroes {
+	float:right;
+      margin: 0em -7.5em 2em 2em;
+      padding: 0;
+      width: 90%;
+       height: auto;
+    }
+.heros ul {
+	
+    margin: 0;
+  color: #000000;
+    }
+ .heroes li {
+ 	 padding: 0.2em 0.2em;
+ font-size: 48%;
+      list-style-type: inline;
+   display: inline-block;
+      cursor: pointer;
+     width: 11%;
+      background-color: orange;
+      margin: .07em;
+  margin-right: .8em;
+      height: auto;
+      border-radius: 2px;
+    }
+     .heroes li h3{     margin: .07em;}
+    button { 
+    	    margin: .07em;
+
+  padding: 0.5em 0.1em;
+   height: auto;
+     width: 100%;
+     background-color: orange;
+     font-weight: bold;
+     color: #000000;}
+   .heroes li.selected:hover {
+      background-color: #BBD8DC !important;
+      color: white;
+    }
+}
+

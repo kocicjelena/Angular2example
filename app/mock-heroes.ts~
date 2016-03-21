@@ -1,0 +1,10 @@
+
+import {Hero} from './hero';
+export var HEROES: Hero[] = [
+    {"id": "img/lampa.jpg", "name": "HOME", "menu1" : ""},
+    {"id":"img/projects.jpg", "name": "PROJECTS", "menu1": "HOME",  "menu2": "COMMERCIAL",  "menu3": "PERSONAL",  "menu4": "STUDIO LAB"},
+    {"id": "img/timeline.jpg", "name": "STUDIO",, "menu1" : ""},
+        {"id": "img/timeline.jpg", "name": "NEWS", "menu1" : ""},
+            {"id":"img/fiji.jpg", "name": "CONTACT", "menu1" : ""},
+             {"id":"img/fiji.jpg", "name": "  X  ", "menu1" : ""},
+];

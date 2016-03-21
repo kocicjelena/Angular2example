@@ -1,0 +1,89 @@
+
+.my-midcontainer h1 {
+    position: relative;
+        width: 100%;
+    height: auto;
+    z-index: 2;
+} 
+.my-midcontainer img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.munul{ 
+	width: 50%;
+list-style-type:none;}
+.my-midcontainer h1 .heroes {
+    float:right;
+     display: inline;
+      margin: 1em -57em 2em 5em;
+      list-style-type: inline;
+      padding: 10;
+      width: 80em;
+    }
+    .my-midcontainer h1 .menus {
+    float:right;
+      margin: 1em -57em 20em 5em;
+      list-style-type: inline;
+      padding: 10;
+      width: 80em;
+    }
+  .heros ul {
+    margin: 5%;
+  font-weight: bold;
+  color: #000000;
+    }
+   .heroes li {
+    
+    display: inline;
+      cursor: pointer;
+      position: relative;
+      left: 0;
+      width: 100em;
+      background-color: orange;
+      margin: .07em;
+      padding: .2em 0;
+      height: 10em;
+      border-radius: 1px;
+    }
+    button { 
+    	          top: -2em;
+    	  height: 4em;
+    	       width: 10em;
+    	    background-color: orange;
+     font-weight: bold;
+  color: #000000;}
+   .heroes li.selected:hover {
+      background-color: #BBD8DC !important;
+      color: white;
+    }
+  .heroes li:hover {
+      color: #607D8B;
+      background-color: #DDD;
+      left: .1em;
+    }
+ .my-midcontainer h1 h3{    
+     position: absolute;
+     bottom:-5em;
+     right:0.1em;
+     float:right;}
+  .heroes .text {
+      position: relative;
+      top: -3px;
+    }
+   .heroes .badge {
+      display: inline-block;
+      font-size: small;
+      color: white;
+      padding: 0.8em 0.7em 0 0.7em;
+      background-color: #607D8B;
+      line-height: 1em;
+      position: relative;
+      left: -1px;
+      top: -4px;
+      height: 1.8em;
+      margin-right: .8em;
+   }
